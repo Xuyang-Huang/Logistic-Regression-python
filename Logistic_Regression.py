@@ -24,8 +24,8 @@ class LRClassifier:
         theta: A numpy array, [n_feature, 2].
         lr: A floating number of learning rate.
         gradient_decent: The gradient decent method you choose.
-        data_std: A list, store normalization parameters for each layer.
-        data_mean: A list, store normalization parameters for each layer.
+        data_std: A numpy array, store normalization parameters for each layer.
+        data_mean: A numpy array, store normalization parameters for each layer.
         same_feature: A bool, the true means all the features have same meaning and boundary for example: images.
 
     """
